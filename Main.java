@@ -10,6 +10,9 @@ public class Main
         System.out.println(ArrayResizer.isNonZeroRow(arr, 1));
         System.out.println(ArrayResizer.isNonZeroRow(arr, 2));
         System.out.println(ArrayResizer.isNonZeroRow(arr, 3));
+        int[][] smaller = ArrayResizer.resize(arr);
+        System.out.println(ArrayResizer.print_it(smaller));
+        
 
 
     }
